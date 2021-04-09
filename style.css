@@ -4,7 +4,6 @@
 	box-sizing: border-box;
 	font-family: 'Nunito', sans-serif;
 }
-
 body{
 	width: 100%;
 	height: 100vh;
@@ -13,38 +12,30 @@ body{
 	align-items: center;
 	background-color: #ebecf0;
 }
-
 div, p{
 	color: #babecc;
 	text-shadow: 1px 1px 1px #fff;
 }
-
 p{
 	text-align: center;
 	margin-top: 20px;
 	font-weight: 800;
 	font-size: 16px;
 }
-
-
 .login-form{
 	width: 350px;
 	height: auto;
 }
-
 .form-title{
 	text-align: center;
 	padding: 25px 0;
 	width: 100%;
-
 }
-
 label{
 	display: block;
 	margin-bottom: 24px;
 	width: 100%;
 }
-
 input{
 	margin-right: 8px;
 	box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
@@ -53,7 +44,6 @@ input{
 	appearance: none;
 	-webkit-appearance: none;
 }
-
 button, input{
 	border:0;
 	outline: 0;
@@ -63,11 +53,9 @@ button, input{
 	background-color: #ebecf0;
 	text-shadow: 1px 1px 0 #fff;
 }
-
 input:focus{
 	box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
 }
-
 button{
 	color: #61677c;
 	font-weight: bold;
@@ -77,33 +65,24 @@ button{
 	font-weight: 600;
 	/*width: 100%;*/
 }
-
 button:hover{
 	box-shadow: -2px -2px 5px #fff, 2px 2px 5px #babecc;
-
 }
-
-
 button:active{
-	box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
-	
+	box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;	
 }
-
 .red{
 	display: block;
 	width: 100%;
 	color: #ae1100;
 }
-
 .red i{
 	margin-right: 5px;
 }
-
 .social-media{
 	padding: 25px 0;
 	text-align: center;
 }
-
 .social-media .social-icon{
 	/*border-radius: 6px;*/
 	line-height: 0;
@@ -113,18 +92,14 @@ button:active{
 	margin: 0 8px;
 	font-size: 18px;
 }
-
 .remember-me{
 	display: flex;
 	align-items: center;
 	padding-bottom: 20px;
-
 }
-
 .input-checkbox{
 	display: none;
 }
-
 .label-checkbox{
 	margin: 0;
 	display: block;
@@ -132,7 +107,6 @@ button:active{
 	padding-left: 26px;
 	cursor: pointer;
 }
-
 .label-checkbox::before{
 	content: "\f00c";
 	font-family: FontAwesome;
@@ -150,12 +124,10 @@ button:active{
 	transform: translateY(-50%);
 	-webkit-transform: translateY(-50%);
 }
-
 .input-checkbox:checked + .label-checkbox::before{
 	color: #c87ef0;
 
 }
-
 .txt1{
 	font-size: 15px;
 	color: #a28080;
